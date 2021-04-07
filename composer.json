@@ -1,0 +1,34 @@
+{
+  "name": "tuzex/timekeeper",
+  "description": "A lightweight library with a time service",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Edo Barnas",
+      "email": "iam@edobarnas.com"
+    }
+  ],
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Tuzex\\Timekeeper\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tuzex\\Timekeeper\\Test\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "8.*"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "0.12.*",
+    "phpstan/phpstan-phpunit": "0.12.*",
+    "phpunit/phpunit": "9.5.*",
+    "symplify/easy-coding-standard": "9.2.*"
+  }
+}
