@@ -25,7 +25,7 @@ final class FixedTimeServiceTest extends TestCase
         $timeStamp = Timekeeper\time();
         $timeService = FixedTimeService::fromStamp($timeStamp);
 
-        $this->assertSame($timeStamp, $timeService->measure()->getTimestamp());
+        $this->assertEquals($timeStamp, $timeService->measure()->getTimestamp());
     }
 
     /**

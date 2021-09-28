@@ -24,7 +24,7 @@ final class FixedTimeService implements TimeService
         $timeZone = new DateTimeZone('UTC');
 
         $dateTime = DateTimeImmutable::createFromFormat($format, $dateTime, $timeZone);
-        if (!$dateTime) {
+        if (! $dateTime) {
             throw new InvalidArgumentException(sprintf('Invalid datetime "%s" (%s).', $dateTime, $format));
         }
 
