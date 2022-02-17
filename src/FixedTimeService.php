@@ -21,9 +21,7 @@ final class FixedTimeService implements TimeService
 
     public static function fromString(string $dateTime, string $format): self
     {
-        $timeZone = new DateTimeZone('UTC');
-
-        $dateTime = DateTimeImmutable::createFromFormat($format, $dateTime, $timeZone);
+        $dateTime = DateTimeImmutable::createFromFormat($format, $dateTime);
         if (! $dateTime) {
             throw new InvalidArgumentException(sprintf('Invalid datetime "%s" (%s).', $dateTime, $format));
         }

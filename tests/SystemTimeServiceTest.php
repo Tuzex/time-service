@@ -12,15 +12,10 @@ final class SystemTimeServiceTest extends TestCase
 {
     public function testItMeasuresTime(): void
     {
-        $expected = [
-            'timeStamp' => Timekeeper\time(),
-            'timeZone' => '+00:00',
-        ];
-
         $timeService = new SystemTimeService();
+
         $dateTime = $timeService->measure();
 
-        $this->assertSame($expected['timeStamp'], $dateTime->getTimestamp());
-        $this->assertSame($expected['timeZone'], $dateTime->getTimezone()->getName());
+        $this->assertSame(Timekeeper\time(), $dateTime->getTimestamp());
     }
 }
