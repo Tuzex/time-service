@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Tuzex\Timekeeper\Test;
+namespace Codea\Timekeeper\Test;
 
+use Codea\Timekeeper;
+use Codea\Timekeeper\SystemTimeService;
 use PHPUnit\Framework\TestCase;
-use Tuzex\Timekeeper;
-use Tuzex\Timekeeper\SystemTimeService;
 
 final class SystemTimeServiceTest extends TestCase
 {

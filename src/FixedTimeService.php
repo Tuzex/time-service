@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tuzex\Timekeeper;
+namespace Codea\Timekeeper;
 
 use DateTimeImmutable;
 use InvalidArgumentException;
@@ -11,7 +11,8 @@ final class FixedTimeService implements TimeService
 {
     public function __construct(
         private DateTimeImmutable $dateTime,
-    ) {}
+    ) {
+    }
 
     public static function fromStamp(int $seconds): self
     {

@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Tuzex\Timekeeper\Test;
+namespace Codea\Timekeeper\Test;
 
+use Codea\Timekeeper;
+use Codea\Timekeeper\FixedTimeService;
 use DateTimeImmutable;
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
-use Tuzex\Timekeeper;
-use Tuzex\Timekeeper\FixedTimeService;
 
 final class FixedTimeServiceTest extends TestCase
 {
     public function testItMeasuresTime(): void
     {
-        $dateTime = new DateTimeImmutable('@'.Timekeeper\time());
+        $dateTime = new DateTimeImmutable('@' . Timekeeper\time());
         $timeService = new FixedTimeService($dateTime);
 
         $this->assertSame($dateTime, $timeService->measure());

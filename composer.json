@@ -1,5 +1,5 @@
 {
-  "name": "tuzex/timekeeper",
+  "name": "codea/timekeeper",
   "description": "A lightweight library with a time service",
   "type": "library",
   "license": "MIT",
@@ -14,12 +14,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Tuzex\\Timekeeper\\": "src/"
+      "Codea\\Timekeeper\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Tuzex\\Timekeeper\\Test\\": "tests/"
+      "Codea\\Timekeeper\\Test\\": "tests/"
     }
   },
   "require": {

@@ -20,6 +20,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Remove explicit `UTC` time zone from time services
 
-[Unreleased]: https://github.com/Tuzex/timekeeper/compare/v0.1.3...HEAD
-[0.1.3]: https://github.com/Tuzex/ddd/timekeeper/tag/v0.1.3
-[0.1.2]: https://github.com/Tuzex/ddd/timekeeper/tag/v0.1.2
+[Unreleased]: https://github.com/Codea/timekeeper/compare/v0.1.3...HEAD
+[0.1.3]: https://github.com/Codea/ddd/timekeeper/tag/v0.1.3
+[0.1.2]: https://github.com/Codea/ddd/timekeeper/tag/v0.1.2

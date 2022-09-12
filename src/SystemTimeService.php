@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tuzex\Timekeeper;
+namespace Codea\Timekeeper;
 
 use DateTimeImmutable;
 
@@ -10,6 +10,6 @@ final class SystemTimeService implements TimeService
 {
     public function measure(): DateTimeImmutable
     {
-        return new DateTimeImmutable('@'.time());
+        return new DateTimeImmutable('@' . time());
     }
 }

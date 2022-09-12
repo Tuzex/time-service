@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tuzex\Timekeeper;
+namespace Codea\Timekeeper;
 
 use DateTimeImmutable;
 use DateTimeZone;
