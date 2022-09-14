@@ -3,9 +3,9 @@
 [![PHP version](https://img.shields.io/packagist/php-v/codea/timekeeper?style=flat-square)](http://php.net)
 [![Latest Version](https://img.shields.io/packagist/v/codea/timekeeper?style=flat-square)](https://packagist.org/packages/codea/timekeeper)
 
-[![Build status](https://img.shields.io/github/workflow/status/codea/timekeeper/Tests?style=flat-square)](https://github.com/Codea/timekeeper/actions?query=workflow%3ATests)
-[![Code Quality](https://img.shields.io/scrutinizer/quality/g/codea/timekeeper?style=flat-square)](https://scrutinizer-ci.com/g/Codea/timekeeper/?branch=master)
-[![Coverage Status](https://img.shields.io/coveralls/github/Codea/timekeeper?style=flat-square)](https://coveralls.io/github/Codea/timekeeper?branch=master)
+[![Build status](https://img.shields.io/github/workflow/status/codea/timekeeper/Tests?style=flat-square)](https://github.com/codea/timekeeper/actions?query=workflow%3ATests)
+[![Code Quality](https://img.shields.io/scrutinizer/quality/g/codea/timekeeper?style=flat-square)](https://scrutinizer-ci.com/g/codea/timekeeper/?branch=master)
+[![Coverage Status](https://img.shields.io/coveralls/github/codea/timekeeper?style=flat-square)](https://coveralls.io/github/codea/timekeeper?branch=master)
 
 A lightweight library with a time service in PHP.
 
