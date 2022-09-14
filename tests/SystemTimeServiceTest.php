@@ -18,4 +18,16 @@ final class SystemTimeServiceTest extends TestCase
 
         $this->assertSame(Timekeeper\time(), $dateTime->getTimestamp());
     }
+
+    public function testItSetSystemTimeZone(): void
+    {
+        $timeService = new SystemTimeService();
+
+        $dateTime = $timeService->measure();
+
+        $this->assertSame(
+            ini_get('date.timezone'),
+            $dateTime->format('e'),
+        );
+    }
 }
