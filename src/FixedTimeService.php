@@ -10,7 +10,7 @@ use InvalidArgumentException;
 final class FixedTimeService implements TimeService
 {
     public function __construct(
-        private DateTimeImmutable $dateTime,
+        private readonly DateTimeImmutable $dateTime,
     ) {
     }
 

@@ -10,7 +10,7 @@ use DateTimeZone;
 final class UtcTimeService implements TimeService
 {
     public function __construct(
-        private TimeService $timeService
+        private readonly TimeService $timeService
     ) {
     }
 
