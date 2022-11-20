@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Termyn\Timekeeper\Test;
 
+use PHPUnit\Framework\TestCase;
 use Termyn\Timekeeper;
 use Termyn\Timekeeper\SystemTimeService;
-use PHPUnit\Framework\TestCase;
 
 final class SystemTimeServiceTest extends TestCase
 {

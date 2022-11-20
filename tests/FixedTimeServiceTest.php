@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Termyn\Timekeeper\Test;
 
-use Termyn\Timekeeper;
-use Termyn\Timekeeper\FixedTimeService;
 use DateTimeImmutable;
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
+use Termyn\Timekeeper;
+use Termyn\Timekeeper\FixedTimeService;
 
 final class FixedTimeServiceTest extends TestCase
 {
