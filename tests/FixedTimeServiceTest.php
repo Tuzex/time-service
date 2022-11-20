@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Codea\Timekeeper\Test;
+namespace Termyn\Timekeeper\Test;
 
-use Codea\Timekeeper;
-use Codea\Timekeeper\FixedTimeService;
+use Termyn\Timekeeper;
+use Termyn\Timekeeper\FixedTimeService;
 use DateTimeImmutable;
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;

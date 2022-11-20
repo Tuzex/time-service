@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Codea\Timekeeper\Test;
+namespace Termyn\Timekeeper\Test;
 
-use Codea\Timekeeper;
-use Codea\Timekeeper\SystemTimeService;
+use Termyn\Timekeeper;
+use Termyn\Timekeeper\SystemTimeService;
 use PHPUnit\Framework\TestCase;
 
 final class SystemTimeServiceTest extends TestCase

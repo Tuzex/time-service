@@ -1,5 +1,5 @@
 {
-  "name": "codea/timekeeper",
+  "name": "termyn/timekeeper",
   "description": "A lightweight library with a time service",
   "type": "library",
   "license": "MIT",
@@ -14,12 +14,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Codea\\Timekeeper\\": "src/"
+      "Termyn\\Timekeeper\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Codea\\Timekeeper\\Test\\": "tests/"
+      "Termyn\\Timekeeper\\Test\\": "tests/"
     }
   },
   "require": {

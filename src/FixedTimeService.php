@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Codea\Timekeeper;
+namespace Termyn\Timekeeper;
 
 use DateTimeImmutable;
 use InvalidArgumentException;
